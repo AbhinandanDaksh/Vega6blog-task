@@ -64,16 +64,13 @@ git clone https://github.com/AbhinandanDaksh/Vega6blog-task.git
 
 Backend setup:
 
-cd Vega6blog-task/backend\
+cd Vega6blog-task/blogBackend\
 npm install\
 npm start
 
 Frontend setup:
 
-If using HTML/CSS/JS, open index.html in browser.\
-If using React:
-
-cd frontend\
+cd frontend\blog-frontend\
 npm install\
 npm start
 
@@ -89,19 +86,6 @@ JWT_SECRET=your_secret_key
 
 ------------------------------------------------------------------------
 
-## API Endpoints
-
-Authentication\
-POST /api/register\
-POST /api/login
-
-Blogs\
-GET /api/blogs\
-POST /api/blogs\
-PUT /api/blogs/:id\
-DELETE /api/blogs/:id
-
-------------------------------------------------------------------------
 
 ## Developed By
 
