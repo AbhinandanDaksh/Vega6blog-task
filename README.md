@@ -1,11 +1,6 @@
-# Vega6 Blog Task -- Node.js Blog Application
+# Node.js Blog Project
 
-This project was developed as a technical task assignment. It is a
-full-stack Blog Application built using Node.js, Express.js, MongoDB,
-and a frontend using HTML, CSS, and JavaScript.
-
-The application allows users to register, log in, and manage blogs with
-complete CRUD functionality.
+This project is a simple blog application built with **Node.js** for the backend and a frontend using  React. It includes user authentication, CRUD functionality for blogs, and dashboard features.
 
 ------------------------------------------------------------------------
 
@@ -16,7 +11,6 @@ complete CRUD functionality.
 -   User Registration (Email & Password)
 -   Profile Image Upload
 -   JWT-based Login
--   Protected Routes
 
 ### Dashboard
 
@@ -39,7 +33,7 @@ Update\
 Delete\
 - Delete blog with confirmation
 
-Optional Feature\
+Additional Feature\
 - Add comments to blogs\
 - Reply to comments\
 - Data stored in MongoDB
@@ -57,21 +51,8 @@ Backend\
 - Multer
 
 Frontend\
-- HTML\
-- CSS\
-- JavaScript
-
-Tools\
-- Postman\
-- Git & GitHub
-
-------------------------------------------------------------------------
-
-## Project Structure
-
-Vega6blog-task │ ├── backend │ ├── controllers │ ├── models │ ├── routes
-│ ├── middleware │ ├── uploads │ ├── server.js │ ├── frontend │ ├── css
-│ ├── js │ └── index.html │ └── README.md
+- React
+- Tailwind
 
 ------------------------------------------------------------------------
 
