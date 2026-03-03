@@ -34,3 +34,16 @@ This project is a simple blog application built with **Node.js** for the backend
 
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
+
+
+cd backend
+npm install
+node server.js   # or npm start
+
+cd frontend
+npm install      # only if using React or build tools
+npm start        # or open index.html in browser
+
+PORT=5000
+MONGO_URI=<your_mongodb_connection_string>
+JWT_SECRET=<your_jwt_secret>
